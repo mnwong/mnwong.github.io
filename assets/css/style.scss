@@ -1,0 +1,26 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.page-header {
+    background-color: #b96c9a;
+    background-image: linear-gradient(120deg, #9e6597, #b97024);
+}
+
+.main-content {
+
+	.breadcrumb {
+		font-size: 12px;
+	}
+
+	.post-title {
+		margin-top: 0;
+	}
+
+	h1, h2, h3, h4, h5 {
+		color: #944879;
+	}
+
+}
+

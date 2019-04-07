@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "最初のとうこう！"
+date:   2019-04-02 22:40:38 -0400
+categories: japanese
+tags: [japanese]
+---
+スコットは外人です。すみません。。。外国人。

@@ -1,0 +1,10 @@
+---
+layout: default
+---
+<div class="breadcrumb"><a href="/">Home</a> &gt;</div>
+<h1 class="post-title">{{ page.title }}</h1>
+<small><em>{{ page.date | date: "%b %d %Y %I:%M%P" }} by {% if page.tags contains 'japanese' %} {{ site.ja-author }} {% else %} {{ site.author }} {% endif %}</em></small>
+
+{{ content }}
+
+{% if page.tags %}<small>Tags: {{page.tags}}</small>{% endif %}
