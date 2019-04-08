@@ -2,6 +2,13 @@
 ---
 
 @import "{{ site.theme }}";
+@import url('https://fonts.googleapis.com/css?family=Kosugi+Maru');
+
+body {
+	:lang(ja-jp) {
+		font-family: 'Kosugi Maru', sans-serif;
+	}		
+}
 
 .page-header {
     background-color: #b96c9a;

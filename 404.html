@@ -8,17 +8,17 @@ layout: default
     max-width: 600px;
     text-align: center;
   }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
+  .container ul {
+    text-align: left;
   }
 </style>
 
 <div class="container">
-  <h1>404</h1>
-
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+  <h1 lang="ja-jp">エラー</h1>
+  <p lang="ja-jp">ページが見つかりません。</p>
+  <p>Try <a href="/">going back home</a> or viewing my most recent post 
+  {% for post in site.posts limit:1 %}
+    (<a href="{{ post.url }}">{{ post.title }}</a>).
+  {% endfor %}
+</p>
 </div>

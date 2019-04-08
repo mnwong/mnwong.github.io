@@ -1,0 +1,10 @@
+---
+layout: default
+---
+<div class="breadcrumb"><a href="/">Home</a> &gt;</div>
+<div lang="ja-jp">
+	<h1 class="post-title">{{ page.title }}</h1>
+	<small>{{ page.date | date: "%Y年%-m月%-d日 %H時%M分" }} by {{ site.ja-author }}</small>
+	{{ content }}
+	<!-- {% if page.tags %}<small>Tags: {{page.tags}}</small>{% endif %} -->
+</div>
